@@ -1,0 +1,43 @@
+.container{
+   
+    margin :50px;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  gap:10px;
+}
+.quote{
+    border-radius: 20 px solid red;
+    
+flex:8;
+text-align: center;
+align-items: center;
+}
+#p{
+    font-size: 17px;
+    color:red;
+    padding-left: 300px;
+    font-style: italic;
+}
+#h2{
+    padding: 20px;
+    background-color: rgb(225, 225, 235);
+   border-radius: 10px
+}
+.btn{
+
+    flex:1;
+    text-align: center;
+    align-items: center;
+
+}
+#btn1{
+    border-radius: 20px;
+    padding: 8px 20px 5px 20px;
+    background-color: blue;
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+}
